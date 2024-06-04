@@ -2,10 +2,11 @@ package toolkitmodule
 
 import "crypto/rand"
 
+const randomString = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+
+// ToolkitModule is a module that contains a set of functions that can be used in any other module
 type ToolkitModule struct {
 }
-
-const randomString = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
 
 func (t *ToolkitModule) RandomString(n int) string {
 

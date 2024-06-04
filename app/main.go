@@ -3,12 +3,12 @@ package main
 import (
 	"fmt"
 
-	"github.com/FemiObadimu/module-go/toolkitModule"
+	toolkitmodule "github.com/FemiObadimu/module-go"
 )
 
 func main() {
-	var randomStr toolkitModule.ToolkitModule
-	s := randomStr.RandomString(10)
+	var randomStr toolkitmodule.ToolkitModule
+	s := randomStr.RandomString(5)
 	fmt.Println(s)
 
 }
